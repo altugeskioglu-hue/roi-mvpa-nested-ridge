@@ -1,0 +1,24 @@
+# Never commit imaging or participant data
+*.nii
+*.nii.gz
+*.npy
+*.npz
+*.csv
+data/
+results/
+features/
+masks/
+manifests/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# R / OS
+.Rhistory
+.RData
+.DS_Store
